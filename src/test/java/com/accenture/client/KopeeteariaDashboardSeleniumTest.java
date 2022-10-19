@@ -45,6 +45,7 @@ class KopeeteariaDashboardSeleniumTest {
         // update feature
         driver.findElementById("orderName_upd").sendKeys(Keys.CONTROL + "a"); //clear text box
 		driver.findElementById("orderName_upd").sendKeys(Keys.DELETE);
+//		driver.findElementById("orderName_upd").clear();
         driver.findElementById("orderName_upd").sendKeys("Today's Brew");
 		driver.findElementById("price_upd").sendKeys(Keys.CONTROL + "a"); //clear text box
 		driver.findElementById("price_upd").sendKeys(Keys.DELETE);
